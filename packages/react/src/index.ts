@@ -1,3 +1,3 @@
-import {} from "@cognu-ui/tokens";
+import { colors } from "@cognu-ui/tokens";
 
-console.log("Running ReactJS Server");
+console.log(colors);
