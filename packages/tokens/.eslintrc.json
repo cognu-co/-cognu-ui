@@ -1,0 +1,3 @@
+{
+  "extends": "@cognu-ui/eslint-config"
+}
