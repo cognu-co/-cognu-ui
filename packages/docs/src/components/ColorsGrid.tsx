@@ -1,6 +1,8 @@
 import { colors } from "@cognu-ui/tokens";
 import { getContrast } from "polished";
 
+// getContrast(color, "#FFFFF") < 3.5 ? "#000" : "#fff"
+
 export function ColorsGrid() {
   return Object.entries(colors).map(([key, color]) => {
     return (
@@ -10,7 +12,7 @@ export function ColorsGrid() {
             display: "flex",
             justifyContent: "space-between",
             fontFamily: "monospace",
-            color: getContrast(color, "#FFFFF") < 3.5 ? "#000" : "#fff",
+            color: "#FFF",
           }}
         >
           <strong>${key}</strong>
