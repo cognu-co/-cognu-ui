@@ -5,3 +5,4 @@ export * from "./components/avatar";
 export * from "./components/Button";
 export * from "./components/textInput";
 export * from "./components/Textarea";
+export * from "./components/checkbox";
