@@ -18,16 +18,8 @@ jobs:
           node-version: 16
 
       - name: Install dependencies
-        run: |
-          if [ -e yarn.lock ]; then
-          yarn install --frozen-lockfile
-          elif [ -e package-lock.json ]; then
-          npm ci
-          else
-          npm i
-          fi
-
-      - run: npm ci
+        # sama as npm ci
+        run: yarn install --frozen-lockfile
 
       - run: npm run build
 
