@@ -15,7 +15,7 @@ module.exports = {
   },
   viteFinal: (config, { configType }) => {
     if (configType === "PRODUCTION") {
-      config.base = "/@cognu-ui/";
+      config.base = "/cognu-ui/";
     }
 
     return config;
