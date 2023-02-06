@@ -7,13 +7,13 @@ React UI Components used diary on Cognu App developer center.
 
 > Warning This is work in progress. I'm building this in public.
 
-- Text
+- [x] Text
 - Heading
-- Box
+- [x] Box
 - Button
 - TextInput
 - Textarea
-- Checkbox
+- [x] Checkbox
 - Avatar
 - MultiStep
 - Toast
@@ -23,8 +23,9 @@ React UI Components used diary on Cognu App developer center.
 ## Using
 
 To include on your React project install the dependecie:
- - `yarn add @cognu-ui/react`
- - `npm -i @cognu-ui/react`
+
+- `yarn add @cognu-ui/react`
+- `npm -i @cognu-ui/react`
 
 ## Features
 
