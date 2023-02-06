@@ -2,10 +2,10 @@ import { ComponentProps, ElementType } from "react";
 import { styled } from "../styles";
 
 export const Heading = styled("h2", {
-  fontFamily: "$default",
+  fontFamily: "$app",
   lineHeight: "$shorter",
   margin: 0,
-  color: "$gray100",
+  color: "$black",
 
   variants: {
     size: {
