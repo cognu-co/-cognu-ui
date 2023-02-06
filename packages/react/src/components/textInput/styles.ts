@@ -20,14 +20,14 @@ export const TextInputContainer = styled("div", {
 });
 
 export const Prefix = styled("span", {
-  fontFamily: "$default",
+  fontFamily: "$app",
   fontSize: "sm",
   color: "$gray400",
   fontWeight: "$regular",
 });
 
 export const Input = styled("input", {
-  fontFamily: "$default",
+  fontFamily: "$app",
   fontSize: "$md",
   color: "$gray900",
   fontWeight: "$regular",
