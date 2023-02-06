@@ -2,10 +2,10 @@ import { ComponentProps, ElementType } from "react";
 import { styled } from "../styles";
 
 export const Text = styled("p", {
-  fontFamily: "$default",
+  fontFamily: "$app",
   lineHeight: "$base",
   margin: 0,
-  color: "$gray100",
+  color: "$black",
 
   variants: {
     size: {
