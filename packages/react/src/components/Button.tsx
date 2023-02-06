@@ -6,7 +6,7 @@ export const Button = styled("button", {
   borderRadius: "$sm",
   fontSize: "$sm",
   fontWeight: "$medium",
-  fontFamily: "$default",
+  fontFamily: "$app",
   textAlign: "center",
   minWidth: 120,
   padding: "0 $4",
@@ -17,6 +17,7 @@ export const Button = styled("button", {
   justifyContent: "center",
   gap: "$2",
 
+  transition: "all 0.2s",
   cursor: "pointer",
 
   "&:disabled": {
@@ -32,10 +33,10 @@ export const Button = styled("button", {
     variant: {
       primary: {
         color: "$white",
-        backgroundColor: "$ignite500",
+        backgroundColor: "$blue700",
 
         "&:not(:disabled):hover": {
-          background: "$ignite300",
+          filter: "brightness(0.9)",
         },
 
         "&:disabled": {
@@ -44,11 +45,11 @@ export const Button = styled("button", {
       },
 
       secondary: {
-        color: "$ignite300",
-        border: "2px solid $ignite500",
+        color: "$blue600",
+        border: "2px solid $blue700",
 
         "&:not(:disabled):hover": {
-          background: "$ignite500",
+          background: "$blue700",
           color: "$white",
         },
 
@@ -59,10 +60,10 @@ export const Button = styled("button", {
       },
 
       tertiary: {
-        color: "$gray100",
+        color: "$gray900",
 
         "&:not(:disabled):hover": {
-          color: "$white",
+          color: "$black",
         },
 
         "&:disabled": {
