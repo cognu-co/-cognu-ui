@@ -8,15 +8,15 @@ React UI Components used diary on Cognu App developer center.
 > Warning This is work in progress. I'm building this in public.
 
 - [x] Text
-- Heading
+- [x] Heading
 - [x] Box
-- Button
-- TextInput
-- Textarea
+- [x] Textarea
 - [x] Checkbox
-- Avatar
-- MultiStep
+- [x] MultiStep
+- [x] TextInput
+- [x] Button
 - Toast
+- Avatar
 - Toolbar
 - Toggle
 
