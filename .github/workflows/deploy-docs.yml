@@ -25,7 +25,7 @@ jobs:
 
       - run: npm run build
         env:
-          TURBO_TOKEN: lLlMav0KI8zoYT9bFVZkYlMQ
+          TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
           TURBO_TEAM: cognu-co
 
       - name: Deploy Storybook
