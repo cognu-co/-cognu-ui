@@ -1,5 +1,11 @@
 # @cognu-ui/react
 
+## 2.3.0
+
+### Minor Changes
+
+- 69f520c: Resolved TextInput pass Ref
+
 ## 3.0.0
 
 ### Major Changes
