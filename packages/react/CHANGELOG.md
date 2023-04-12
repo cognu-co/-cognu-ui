@@ -1,5 +1,11 @@
 # @cognu-ui/react
 
+## 3.1.0
+
+### Minor Changes
+
+- Checkbox forwarding refs
+
 ## 3.0.0
 
 ### Major Changes
