@@ -39,3 +39,7 @@
     }
   }
   ```
+
+## Add new changes
+
+> como adicionar novas mudanças e publicar nas CDNs
