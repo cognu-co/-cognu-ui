@@ -43,3 +43,9 @@
 ## Add new changes
 
 > como adicionar novas mudanças e publicar nas CDNs
+
+1º changeset
+2º version
+
+- add new package
+  - npm login

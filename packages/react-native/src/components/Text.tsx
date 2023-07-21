@@ -2,6 +2,7 @@ import styled, { css } from "styled-components/native";
 import { RFValue } from "react-native-responsive-fontsize";
 import { fontSizes } from "../styles/font-sizes";
 
+// TODO: Remove this when we have a better solution
 const sizeOptions = {
   xxs: { fontSize: `${RFValue(fontSizes["xxs"])}px` },
   xs: { fontSize: `${RFValue(fontSizes["xs"])}px` },
