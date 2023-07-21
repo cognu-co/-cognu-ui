@@ -1,5 +1,11 @@
 # @cognu-ui/react-native
 
+## 0.1.0
+
+### Minor Changes
+
+- Submit first version
+
 ## 0.0.1
 
 ### Major Changes
